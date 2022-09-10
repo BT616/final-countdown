@@ -14,7 +14,7 @@ $(".saveBtn").on("click",function(){
 var user = $(this).siblings(".userInput").val();
 var time = $(this).parent().attr("id");
 localStorage.setItem(time,user);
-})
+});
 
 
 
@@ -28,6 +28,23 @@ $("#13 .userInput").val(localStorage.getItem("13"));
 $("#14 .userInput").val(localStorage.getItem("14"));
 $("#15 .userInput").val(localStorage.getItem("15"));
 $("#16 .userInput").val(localStorage.getItem("16"));
+
+
+
+// colorblock 
+
+var currentHour= moment().hour();
+
+
+
+
+
+
+
+
+
+
+
 
 
 
