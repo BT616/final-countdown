@@ -1,6 +1,6 @@
 var timeEl = $("#currentDay");
 var userInputEl = document.querySelector(".userInput");
-var save = document.querySelector(".saveBtn");
+
 
 //this is the date and time. set interval at the bottom displays it and counts per second "1000"
 function displayTime() {
@@ -18,20 +18,16 @@ localStorage.setItem(time,user);
 
 
 
-// colorblocking 
-
-
-
-
-
-
-
-
-
-
-
-    
-
+//recall storage info 
+$("#8 .userInput").val(localStorage.getItem("8"));
+$("#9 .userInput").val(localStorage.getItem("9"));
+$("#10 .userInput").val(localStorage.getItem("10"));
+$("#11 .userInput").val(localStorage.getItem("11"));
+$("#12 .userInput").val(localStorage.getItem("12"));
+$("#13 .userInput").val(localStorage.getItem("13"));
+$("#14 .userInput").val(localStorage.getItem("14"));
+$("#15 .userInput").val(localStorage.getItem("15"));
+$("#16 .userInput").val(localStorage.getItem("16"));
 
 
 
