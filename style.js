@@ -1,6 +1,6 @@
 var timeEl = $("#currentDay");
 var userInputEl = document.querySelector(".userInput");
-
+var currentHour= document.querySelector("#id"); 
 
 //this is the date and time. set interval at the bottom displays it and counts per second "1000"
 function displayTime() {
@@ -31,25 +31,18 @@ $("#16 .userInput").val(localStorage.getItem("16"));
 
 
 
+
 // colorblock 
-
-var currentHour= moment().hour();
-
-
+currentHour= moment().hour();
+function timeAttack(){
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+ for (let i =0; i < currentHour; i++){
+    if (currentHour === parseint.timeEl){
+    $(this).addClass("past");
+ 
+}  
+}
+}
 
 setInterval(displayTime, 1000);
